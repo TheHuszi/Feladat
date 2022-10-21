@@ -1,0 +1,83 @@
+body, html {
+    height: 90%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 80%;
+}
+
+form {
+    padding: 7px;
+    box-shadow: 0 0 10px rgba(59, 59, 59, 0.3);
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+input {
+    height: 33px;
+    text-indent: 10px;
+    font-size: 12px;
+    margin: 7px;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.firstRow {
+    width: 228px;
+    margin-top: 14px;
+}
+
+input[name="name"] {
+    margin-left: 14px;
+}
+
+input[name="email"] {
+    margin-right: 14px;
+}
+
+input[name="subject"] {
+    width: 480px;
+}
+
+textarea {
+    height: 105px;
+    width: 480px;
+    text-indent: 10px;
+    padding-top: 10px;
+    margin: 7px;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+button {
+    margin: 7px 0px 14px 0px;
+    background-color: #86acc2;
+    color: white;
+    width: 85px;
+    height: 38px;
+    border: 1px solid rgb(166, 166, 255);
+    border-radius: 19px;
+}
+
+.errors {
+    color: red;
+}
+
+#nameError {
+    position: relative;
+    right: 85px;
+    display: inline;
+}
+
+#emailError {
+    position: relative;
+    left: 85px;
+    display: inline;
+}
+
+p {
+    font-size: 12px;
+}
